@@ -1,0 +1,40 @@
+th, td {
+    border: 1px solid black;
+    text-align:center;
+}
+.outer{
+    width:100%;
+    margin-top:100px;
+}
+
+.tableDiv{
+    width: 20%;
+    margin: 0 auto; 
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1035px) {
+    .tableDiv{
+        width: 40%;
+        margin: 0 auto; 
+    }
+
+    .tableColor{
+        background-color:#D84848;
+        color:whitesmoke;
+    }
+}

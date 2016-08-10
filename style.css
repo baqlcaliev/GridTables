@@ -1,0 +1,46 @@
+.container{                 
+    width:80%;
+}
+
+body{
+    font-style: italic;
+    font-weight:normal;
+    text-align:center;
+    display:block;
+    font-size:25px;
+}
+
+.borderColor{
+    border:1px solid black;
+    margin-top:25px;
+
+}
+.floatingHeight{
+    border:1px solid black;
+    height:300px;                              
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    margin-top:25px;
+}
+
+.textCenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:center;
+}
+.btn{
+    width:100px;
+}
+
+@media screen and (max-width: 991px) {
+    .borderColor{
+        background-color:#87509C;
+        color:#E7F1F8;
+    }
+    .floatingHeight{
+        background-color:#56ac39;
+        color:#E7F1F8;
+    }
+}
